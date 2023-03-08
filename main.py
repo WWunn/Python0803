@@ -42,3 +42,41 @@ print(listy)
 #odwracanie
 listy.reverse()
 print(listy)
+slownik={'a':2,1:2,4:'ab',1:3}
+print(slownik)
+print(slownik[4])
+slownik['klucz']='wartosc'
+print(slownik)
+slownik.pop('klucz')
+print(slownik)
+print(slownik.keys())
+print(slownik.values())
+print('a=%(zm)d'%{'zm':12})
+print('a={},b={}')
+#if warunek1 wcięcie
+    #instrukcja
+    #instrukcja2
+#elif warunek2:
+    #instrukcja1
+    #instrukcja2
+#else
+    #instrukcja1
+a=input('podaj a')
+b=input('podaj b')
+print(a)
+print(b)
+print(type(a))
+print(type(b))
+if a>b:
+    print(a)
+elif a<b:
+    print(b)
+else:
+    print('a równe b xd')
+c=input('c= ')
+d=input('d= ')
+if c==d:
+    print('są równe')
+eli
+
+
