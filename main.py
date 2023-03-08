@@ -20,7 +20,7 @@
 # print(b)
 # b+=2
 # print(b)
-listy=[4,5,6,5.6]
+# listy=[4,5,6,5.6]
 # print(listy)
 # listy.append(4)
 # print(listy)
@@ -61,8 +61,8 @@ listy=[4,5,6,5.6]
 #     #instrukcja2
 # #else
 #     #instrukcja1
-a=input('podaj a   ')
-b=input('podaj b   ')
+# a=input('podaj a   ')
+# b=input('podaj b   ')
 # print(a)
 # print(b)
 # print(type(a))
@@ -73,8 +73,8 @@ b=input('podaj b   ')
 #     print(b)
 # else:
 #     print('a równe b xd')
-c=input('c= ')
-d=input('d= ')
+# c=input('c= ')
+# d=input('d= ')
 # if c==d:
 #     print('są równe')
 # if (a>b)&(c>d):
@@ -92,4 +92,23 @@ d=input('d= ')
 # for i in range(0,len(listy)):
 #     a = listy[i]
 #     print(a)
-#
+# licznik=0
+# while licznik!=len(listy):
+#     print(listy[licznik])
+#     licznik+=1
+liczby=[3,4,5,6,7,2,2,2,8,1,2]
+# a=int(input('podaj a pajacu: '))
+liczebnik=0
+# while liczebnik!=len(liczby):
+#     if(a-liczby[liczebnik]==0):
+#         print('{}-{}=0'.format(a,liczby[liczebnik]))
+#         break
+#     liczebnik+=1
+while liczebnik!=len(liczby):
+    if liczby[liczebnik]==2:
+        del liczby[liczebnik]
+        liczebnik-=1
+    liczebnik+=1
+print(liczby)
+
+
