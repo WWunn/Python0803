@@ -77,6 +77,6 @@ c=input('c= ')
 d=input('d= ')
 if c==d:
     print('są równe')
-eli
+
 
 
